@@ -22,7 +22,7 @@ config.first_layer_conv_width = 3
 config.first_layer_conv_height = 3
 
 config.dropout = 0.4 # 0.2 didn't work well to avoid overfit, when 0.4 works!
-config.hidden_nodes = 2000 # 200 could only improved val_acc to ~53%, when 2000 made it further to 78%!
+config.hidden_nodes = 5000 # 200 could only improved val_acc to ~53%, when 2000 made it further to 78%!
 
 input_shape = (48, 48, 1)
 
